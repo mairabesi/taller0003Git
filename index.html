@@ -1,0 +1,99 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <title>Calculadora</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+        crossorigin="anonymous">
+    <link href="./css/style.css" type="text/css" rel="stylesheet" />
+</head>
+<body class="bg-light">
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Calculadora JavaScript</a>
+        </div>
+    </nav>
+
+    <div class="container my-4">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div id="calculadora" class="card">
+                    <div class="card-body">
+
+                        <table class="table table-borderless">
+                            <tr>
+                                <td colspan="4">
+                                    <input type="text" id="tela" maxlength="30" readonly="readonly"
+                                        class="form-control" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="button" id="apagarAnterior" value="<-" class="btn btn-danger" /></td>
+                                <td><input type="button" class="btn btn-danger" id="limparTela" value="C" class="btn btn-warning" /></td>
+                            </tr>
+                            <tr>
+                                <td><input type="button" class="btn btn-dark" class="btn btn-warning" id="num7" value="7" class="btn btn-secondary" /></td>
+                                <td><input type="button" class="btn btn-dark" class="btn btn-warning" id="num8" value="8" class="btn btn-secondary" /></td>
+                                <td><input type="button" class="btn btn-dark" class="btn btn-warning" id="num9" value="9" class="btn btn-secondary" /></td>
+                                <td><input type="button" type="button" class="btn btn-danger" id="divisao" value="/" class="btn btn-info" /></td>
+                            </tr>
+                            <tr>
+                                <td><input type="button" class="btn btn-dark" class="btn btn-primary" id="num4" value="4" class="btn btn-secondary" /></td>
+                                <td><input type="button" class="btn btn-dark" id="num5" value="5" class="btn btn-secondary" /></td>
+                                <td><input type="button" class="btn btn-dark" id="num6" value="6" class="btn btn-secondary" /></td>
+                                <td><input type="button" id="multiplicacao" value="*" class="btn btn-info" /></td>
+                            </tr>
+                            <tr>
+                                <td><input type="button" class="btn btn-dark" class="btn btn-success" id="num1" value="1" class="btn btn-secondary" /></td>
+                                <td><input type="button" class="btn btn-dark" class="btn btn-success" id="num2" value="2" class="btn btn-secondary" /></td>
+                                <td><input type="button" class="btn btn-dark"class="btn btn-success" id="num3" value="3" class="btn btn-secondary" /></td>
+                                <td><input type="button" id="subtracao" value="-" class="btn btn-info" /></td>
+                            </tr>
+                            <tr>
+                                <td><input type="button" class="btn btn-dark" id="num0" value="0" class="btn btn-secondary" /></td>
+                                <td><input type="button" class="btn btn-dark" id="ponto" value="." class="btn btn-secondary" /></td>
+                                <td><input type="button" id="resultado" value="=" class="btn btn-success" /></td>
+                                <td><input type="button" class="btn btn-success" id="soma" value="+" class="btn btn-info" /></td>
+                            </tr>
+							<tr>
+								<td colspan="4">
+									<input type="button" class="btn btn-danger" id="convertirFahrenheit" class="btn btn-primary" value="Convertir a Fahrenheit"/>
+								</td>
+							</tr>
+							
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer py-3">
+        <div class="container">
+            <span>Produzido por Francisco Chaves.</span>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
